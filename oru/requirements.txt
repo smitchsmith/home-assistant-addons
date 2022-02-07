@@ -2,4 +2,4 @@ pyotp
 requests
 pyppeteer
 paho-mqtt
-coned
+git+https://github.com/smitchsmith/coned@master#egg=coned

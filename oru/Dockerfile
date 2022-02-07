@@ -2,7 +2,7 @@ FROM debian:buster
 
 USER root
 RUN apt-get update && apt-get upgrade -yq
-RUN apt-get install python3 python3-pip jq nano -y
+RUN apt-get install python3 python3-pip jq nano git -y
 
 # Install chromium
 RUN apt-get update && apt-get install -y chromium
